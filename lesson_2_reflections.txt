@@ -1,1 +1,4 @@
-This is a test snippet to populate to this file for the initial commit of this file; I will remove this later.
+How can you use the staging area to make sure you have one commit per logical change?
+I can use the staging area to add all the files to the staging area once a logical piece of work 
+is done. Then once the work is done or logical piece is done then I can commit the work as a one logical
+unit.
