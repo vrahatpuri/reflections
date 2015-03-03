@@ -2,3 +2,27 @@ How can you use the staging area to make sure you have one commit per logical ch
 I can use the staging area to add all the files to the staging area once a logical piece of work 
 is done. Then once the work is done or logical piece is done then I can commit the work as a one logical
 unit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful when you want to take a base code base and build something on top of it and not disturb the 
+original branch. Once you are done with your changes you can mearge your changes to the original branch. Branches
+would allow us to keep the areas of the code isolated.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help me visualize the branch structure by making it explicit of what happened behind the scenes.
+
+These are just ids I wanted to find where is the right place e to make changes to make the coin yellow.
+825afa2a00d3971d148d1d3376493498f01c5ba1 //everything after the merge
+354dfdd  -- 354dfdd530b1631a2834b2e9e242d31e625c9c13
+b0678b1 -- b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging the file is that the changes from both the files are unified and merge to the master
+if the merge is being performed on the master. We want to represent in the diagram just so that the idea is 
+clear and  confusion can be avoided.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merges in git are easy to decipher because the system gives you the common code base that was 
+changed and the deltas. Manual merges are to labour intensive because you do not have automation and if 
+the code involves many files then it will be very tough to merge the code blocks from various branches.
+
