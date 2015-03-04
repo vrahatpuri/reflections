@@ -6,3 +6,12 @@ Why might you want to always pull changes manually rather than having Git automa
 I want to have control on when I want to get changes from the remote git directory. If I do an automatic update from the remote 
 I will run into risk of corrupting or losing my current changes on the local file system. That is why I want to pull changes
 manually when I am ready to merge my changes on the local file system.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork: Fork is a GitHub concept where you take an existing shared repository by some other user and try to modify it and make your own or build on the work that was already done on it. The forked repository will appear on your home page. If you want to work on it on your local laptop you have to clone it to your local laptop and start working on it. Note that a remote link is automatically created when you clone it from GitHub. Once you make modifications to it you can commit it just like a normal repository.
+
+Clones: If you have a repository hosted on the GitHub, and you have to work on it on your local laptop. You have to replicate it first on your local laptop and the process of replicating it is called cloning. Once the repository is cloned it automatically creates a link to the remote repository. When you commit and push changes to GitHub they go to you the remote repsotory.
+
+Branches: If you want to use the current snap shot of the code and try to build on it without commiting to the master branch you have to make a branch and commit your work to the branch. The code you have built out will be committed to the branch. Once you are done developing the new feature you can then merge the code branch to the master branch to get your changes to master again.
+
+ 
